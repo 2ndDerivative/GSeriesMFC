@@ -1,0 +1,9 @@
+[package]
+name = "gseries_mfc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Niclas Klugmann <niclas@klugmann.de>", "Janna Xenia Friebel <jxfriebel@gmail.com>"]
+
+[dependencies]
+tokio = { version = "1.39.3", features = ["full"] }
+tokio-serial = "5.4.4"
